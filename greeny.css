@@ -18,18 +18,22 @@ body {
 	width:1%;
 	height: 5px;
 }*/
-.informacion p{
-	float: right;
-	background-color:white;
-	
-}
+/*Encabezado de la pagina*/
+
 #header {
 	height: 101px;
 }
 #header img{
 	width:20%;
 	height: 100px;
+	position:absolute;
+	top:20px;
+	left:200px;
 }
+#header ul{
+	text-align:center;
+}
+
 .title {
 	line-height: 44px;
 	color: #FFFFFF;
@@ -38,24 +42,6 @@ body {
 	font-weight: bold;
 }
 
-/*.slogan {
-	color: #FFFFFF;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:18px;
-	font-style:italic;
-	padding-left: 50px;
-}*/
-/*.menu{
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
-	overflow:hidden;
-}
-.menu a{
-	color:white;
-	text-align:center;
-	
-}*/
 /*Barra de Navegacion*/
 .navegacion{
 	width:1000px;
@@ -71,8 +57,8 @@ body {
 	display:inline-block;
 }
 .menu > li > a{
-	disc:block;
-	padding:15px 20px;
+	display:block;
+	padding:25px 20px;
 	color:#353535;
 	font-family:'Open sans';
 	text-decoration:none;
